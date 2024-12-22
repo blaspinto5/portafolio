@@ -1,7 +1,7 @@
 # Tarjeta de Usuario
-Proyecto para mostrar información de un usuario con un diseño simple y minimalista.
 
-![Portada del Proyecto](https://pbs.twimg.com/media/GfOBrNBXsAAmy-x?format=jpg&name=small)
+
+![Portada del Proyecto](https://drive.google.com/file/d/199ayrLzChLluNS--oVIannvw6XEpvgNY/view?usp=drive_link)
 
 ## Tecnologías
 - HTML
@@ -9,13 +9,14 @@ Proyecto para mostrar información de un usuario con un diseño simple y minimal
 
 ## Contribuciones
 1. Haz un fork.
-2. Crea una rama (`git checkout -b nueva-funcion`).
-3. Haz commit (`git commit -m 'Nueva función'`).
-4. Haz push (`git push origin nueva-funcion`).
+2. Crea una rama (`git checkout -b main`).
+3. Haz commit (`git commit -m 'first commit'`).
+4. Haz push (`git push origin main`).
 5. Abre un Pull Request.
+6. Usar Js
 
 ## Licencia
 Proyecto bajo la Licencia MIT.
 
 ## Autor
-Creado por [pzunigal].
+ [blaspinto5].
