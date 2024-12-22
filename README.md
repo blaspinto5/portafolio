@@ -21,4 +21,5 @@
 Proyecto bajo la Licencia MIT.
 
 ## Autor
- [blaspinto5].
+Por: [blaspinto5](https://github.com/blaspinto5)
+
