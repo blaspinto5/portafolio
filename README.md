@@ -1,11 +1,13 @@
 # Tarjeta de Usuario
 
 
-![Portada del Proyecto](https://drive.google.com/file/d/199ayrLzChLluNS--oVIannvw6XEpvgNY/view?usp=drive_link)
+![Portada del Proyecto](https://drive.google.com/file/d/199ayrLzChLluNS--oVIannvw6XEpvgNY/view?usp=sharing)
 
 ## Tecnologías
 - HTML
 - CSS
+- JS
+- BootStrap
 
 ## Contribuciones
 1. Haz un fork.
