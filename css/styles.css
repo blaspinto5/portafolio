@@ -1,11 +1,23 @@
 
-body {
-    background-color: #f5f5f5;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#index-fondo {
+    background-image: url('./../img/fondopantalla2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fija el fondo */
 }
 
 
 
-h1, h2, h3, p {
+h1, h2, h3{
     font-family: 'Rye', serif;
 }
 
@@ -58,3 +70,110 @@ h1, h2, h3, p {
 .image-container:hover {
     transform: scale(1.1);
 }
+
+
+
+
+.perfil-cont {
+    position: relative;
+    background-color: rgb(183, 216, 213);
+    height: 150px;
+    text-align: center;
+  }
+
+  .backgroundPost{
+    background-color: black;
+  }
+  
+  .img-container {
+    position: absolute;
+    top: 110px; /* Ajusta según la posición deseada */
+    left: 10%;
+    transform: translateX(-50%);
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px;
+    border: 3px solid #fff; /* Borde alrededor de la imagen */
+    border-radius: 50%; /* Hace que sea circular */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+  }
+  
+
+  .boton {
+    background-color: rgb(83, 255, 60);
+  }
+
+
+  .post-cont {
+    position: relative;
+    height: 150px;
+    text-align: center;
+  }
+
+  .imgPost-container {
+    width: 40px; /* Tamaño de la imagen */
+    height: 40px;
+    border-radius: 50%; /* Hace la imagen circular */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  }
+  
+  .imgPost-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+  }
+  
+  p {
+    color: white;
+    margin: 0; /* Elimina márgenes adicionales */
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+  }
+  
+
+.mt{
+    margin-top: 90px;
+}
+
+.mb{
+    margin-top: 90px;
+}
+
+
+.background-image {
+    background-image: url('./../img/optimus.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    height: 200px; /* Altura del div, ajusta según lo necesario */
+    width: 100%; /* Asegura que el ancho sea igual al contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+  }
+  
+
+
+  .background-image2 {
+    background-image: url('./../img/megatron.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    height: 200px; /* Altura del div, ajusta según lo necesario */
+    width: 100%; /* Asegura que el ancho sea igual al contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+  }
+  
+
+  .background-image3 {
+    background-image: url('./../img/starscream.webp'); /* Ruta de la imagen */
+    background-size: cover; /* Escala la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen */
+    height: 200px; /* Altura del div, ajusta según lo necesario */
+    width: 100%; /* Asegura que el ancho sea igual al contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    margin-bottom: 40px;
+  }
+  
